@@ -1,0 +1,5 @@
+{
+  "name": "barberapp",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"]
+}
