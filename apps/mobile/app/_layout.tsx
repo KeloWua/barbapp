@@ -32,8 +32,8 @@ export default function RootLayout() {
         if (!session && !inAuthGroup) {
             // No session: redirect to login
             router.replace('/(auth)/login')
-            // Session found: redirect to home
         } else if (session && inAuthGroup) {
+            // Session found: redirect to home
             router.replace('/(client)')
         }
         
